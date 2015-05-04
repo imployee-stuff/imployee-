@@ -1,0 +1,390 @@
+.body {
+
+background: url('Images/FirstPageBlackBar.png'),url('Images/FirstPageDevice.png'), url('Images/FirstPageBackground.jpg');
+background-size:100% 10%,95% 95%,100% 100%;
+background-repeat:  no-repeat,no-repeat , no-repeat;
+background-position: top,top 15% right 10%,right ;
+background-attachment:scroll,scroll,fixed;
+}
+.topmar{
+
+	margin-top: 15%;
+	background: none;
+}
+
+
+#image{
+margin-top: 0%;
+font-size: 5.3vw;
+margin-left: -2%;
+position: relative;
+width: 75%;
+line-height: 270%;
+text-align: left;
+background:url('Images/FirstPageWhiteBar.png');
+}
+
+#logoo{
+position: absolute;
+width: 40%;
+height: 100%;
+margin-top: -2%;
+margin-left: 1%;
+}
+
+#para1{
+position: absolute;
+margin-top: -12%;
+margin-left: 5%;
+font-size: 2vw;
+text-align:left;
+left:0%;
+color: black;
+}
+.links {
+float:right;
+margin-top:3%;
+margin-right:3%;
+color:white;
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+visibility: hidden;
+opacity: 0;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+.popup {
+margin: 70px auto;
+padding: 20px;
+background: #fff;
+border-radius: 5px;
+width: 30%;
+position: relative;
+transition: all 1s ease-in-out;
+}
+#password {
+margin-top:2%;
+}
+.popup h2 {
+margin-top: 0;
+color: #333;
+font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+position: absolute;
+top: 20px;
+right: 30px;
+transition: all 1s;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+color: #333;
+}
+.popup .close:hover {
+color: #06D85F;
+}
+.popup .content {
+max-height: 30%;
+overflow: auto;
+}
+#button {
+float:right;
+margin-top:5%;
+background-color:green;
+}
+#para2{
+text-align: left;
+margin-top: 10%;
+font-size: 16pt;
+margin-left: 0%;
+margin-right: 10%;
+width:95%;
+}
+#readmore{
+width: 15%;
+height: 8%;
+margin-left: 10%;
+}
+@media screen and (max-width: 700px){
+.box{
+width: 70%;
+}
+.popup{
+width: 70%;
+}
+}
+@media screen and (max-width: 768px) {
+#para2{
+font-size:120%;
+}
+}
+
+@media screen and (max-width: 568px) {
+#para2 {
+font-size:90%;
+}
+}
+
+
+
+
+
+
+/*thisis.css*/
+
+@font-face {
+   font-family: myFirstFont;
+   src: url('Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+.flip:hover { 
+	transform:scalex(-1);
+	filter:fliph;
+}
+.margin{
+
+	margin-top: 10%;
+}
+.firstp{
+	padding: 0%;
+}
+#oneone{
+position:relative;
+font-size:48.5pt;
+margin-left:35%;
+font-size: 4vw;
+margin-top: 5%;
+}
+h1 {
+font-size:48.5pt;
+margin-left:25%;
+
+}
+h2{
+margin-left: 10%;
+margin-top: -5%;
+text-align: center;
+font-size: 15pt;
+color:black;
+ }
+#logo {
+position:absolute;
+width:40%;
+height:120%;
+margin:0%;
+left:20%;
+top:-25%;
+}
+
+p {
+text-align:center ;
+margin-top:0%;
+font-size: 12pt;
+padding: 0% 10%;
+}
+img{
+margin-left: 30%;
+	width:40%;
+
+}
+.mar{
+
+	margin-top: 0%;
+}
+
+.access{
+
+	margin-top: 10%;
+}
+.flip{
+		transition-duration: 0.6s;
+transition-property: transform;
+}
+
+
+/*workcss.css*/
+
+.work{
+background:url('Images/ThirdPageTopBackground.png');
+background-repeat:no-repeat;
+background-size:100% 15%;
+background-position:top;
+}
+.space{
+	margin-top:35%;
+}
+
+h1{
+position: absolute;
+text-align:right;
+margin-top: -33%;
+font-family: 'museo_slab500';
+font-size: 200%;
+font-size: 4vmin;
+color: black;
+padding: 0 10%;
+margin-left: -10%;
+width: 55%;
+line-height: 200%;
+background:url('Images/ThirdPageWhiteBar.png');
+}
+
+.workflow {
+
+width:100%;
+height:auto;
+margin-top:-20%;
+
+margin-left: 0%;
+}
+.working {
+text-align:center justify;
+margin-top:20%;
+margin-left: 10%;
+
+}
+
+.obj1{
+
+	margin-top:-30%;
+}
+
+
+
+
+/*rotatecss.css*/
+
+
+.rotate{
+background:url('Images/FourthPageBackgroundImage.png');
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:center center;
+background-attachment:scroll;
+}
+h3{
+	margin-top: 10%;
+	margin-left: -10%;
+position: absolute;
+text-align:right;
+
+font-family: 'museo_slab500';
+font-weight:normal;
+font-size: 4vmin;
+color: black;
+padding: 0 10%;
+width: 55%;
+line-height: 200%;
+background:url('Images/FourthPageHeadingBackground.png');
+}
+.obj{
+margin-top: 25%;
+}
+#one{
+width:20%;
+height:30%;
+margin-left: 15%;
+float:left;
+transition-duration: 0.6s;
+transition-property: transform;
+}
+#onee {
+width:20%;
+height:30%;
+margin-top:5%;
+margin-left: 15%;
+float:left;
+transition-duration: 0.6s;
+transition-property: transform;
+}
+#two {
+width:20%;
+height:30%;
+float: right;
+margin-left: 0%;
+margin-right:15%; 
+transition-duration: 0.6s;
+transition-property: transform;
+}
+#twoo {
+width:20%;
+height:30%;
+margin-top:5%;
+float:right;
+margin-left: 0%;
+margin-right: 15%;
+transition-duration: 0.6s;
+transition-property: transform;
+}
+
+#one:hover, #two:hover, #onee:hover , #twoo:hover {
+transform:scalex(-1);
+filter:fliph;
+}
+#three {
+vertical-align:middle;
+}
+#text1{
+font-size: 18pt;
+text-align:left;
+margin-left:0%;
+color:white;
+font-weight:normal;
+}
+#text11 {
+font-size: 18pt;
+text-align:left;
+margin-top: 5%;
+margin-left:0%;
+color:white;
+font-weight:normal;
+}
+
+#paraa1{
+color:white ;
+font-size:14pt;
+font-size: 2vmin;
+text-align:left;
+font-weight:normal;
+
+}
+
+#paraa2{
+color:white ;
+font-size:14pt;
+font-size: 2vmin;
+text-align:right;
+font-weight:normal;
+}
+.TextWrap {
+float:left;
+margin:0%;
+}
+#text2 {
+font-size: 18pt;
+text-align:right;
+margin-left:20%;
+color:white;
+
+}
+#text22{
+font-size: 18pt;
+text-align:right;
+margin-top: 5%;
+margin-left:20%;
+color:white;
+font-weight:normal;
+}
+.hh {
+float:right;
+}
+
+
+
